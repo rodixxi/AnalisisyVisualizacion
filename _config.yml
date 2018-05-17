@@ -3,7 +3,7 @@ title:              Laboratorio 2
 bio:                'Rodrigo Crespillo y Juan Dias'
 description:        "Analsis y Visualizacion de Datos"
 locale:             en_US
-baseurl: "/AnalisisyVisualizacion/Lab1/" # the subpath of your site, e.g. /blog
+baseurl: "/AnalisisyVisualizacion/" # the subpath of your site, e.g. /blog
 url: "https://rodixxi.github.io" # the base hostname & protocol for your site
 
 defaults:

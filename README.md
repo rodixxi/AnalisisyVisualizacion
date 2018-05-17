@@ -1,42 +1,60 @@
-### Diplomatura AACSyA 2018 - FaMAF - UNC
-# Análisis y Visualización de Datos
+## How to Use This Theme
+Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
 
+Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively-src/archive/master.zip) and save it to any folder you want.
 
-## Requisitos de Instalación
+Open a terminal window or a command line and ```cd``` to that location.
 
-Hay dos manejadores principales de paquetes para Python: conda y pip. Para este curso les recomendamos usar conda, ya que funciona también como un manejador de entornos (como virtualenv). Además de ello, las notebooks estarán escritas para Python 3.5.
+Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
 
-Para configurar el entorno de trabajo con jupyter y todas las herramientas necesarias para este curso, pueden ejecutar los siguientes comandos:
-
+## Features
+### Auto-Generating Sitemap
+The sitemap is auto generated! Just simply change the sitemap variable in front matter of each page. It looks like so...
 ```
-$ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-$ bash Miniconda3-latest-Linux-x86_64.sh
-$ conda create --name diplodatos-ayv python=3.5 numpy scipy jupyter nb_conda
-$ source activate diplodatos-ayv
-```
-
-Una vez que hayan activado el environment y clonado este repositorio, en este mismo directorio pueden ejecutar jupyter para abrir las notebooks:
-
-```
-$ jupyter notebook
+sitemap:
+    priority: 0.7
+    lastmod: 2017-11-02
+    changefreq: weekly
 ```
 
-Si prefieren utilizar otro manejador de paquetes distinto de conda, las librerías que utilizaremos son:
+### Formspring.io Integration
+Formspring is supported out of the box! Just add your email to ```_config.yml```
 
-* matplotlib
-* numpy
-* pandas
-* seaborn
 
-### Opcionales
-
-Las siguientes librerías son necesarias para correr los ejemplos con R:
-
+## Credits
+### Original README from HTML5 UP
 ```
-$ conda install -c r r-essentials rpy2
+Massively by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+
+This is Massively, a text-heavy, article-oriented design built around a huge background
+image (with a new parallax implementation I'm testing) and scroll effects (powered by
+Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
+that fulfills a few user requests and makes use of some new techniques I've been wanting
+to try out. Enjoy it :)
+
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
+
+(* = not included)
+
+AJ
+aj@lkn.io | @ajlkn
+
+
+Credits:
+
+	Demo Images:
+		Unsplash (unsplash.com)
+
+	Icons:
+		Font Awesome (fortawesome.github.com/Font-Awesome)
+
+	Other:
+		jQuery (jquery.com)
+		Misc. Sass functions (@HugoGiraudel)
+		Skel (skel.io)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
 ```
-
-## Datasets
-
-Los datasets con los que estaremos trabajando se encuentran en https://cs.famaf.unc.edu.ar/~mteruel/datasets/diplodatos. Son pequeños, pero si quieren pueden llevarlos previamente descargados.
-
