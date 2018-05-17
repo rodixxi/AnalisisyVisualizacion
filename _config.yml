@@ -1,5 +1,5 @@
 # Site
-title:              Laboratorio 2
+title:              Analisis y Visualizacion de Datos
 bio:                'Rodrigo Crespillo y Juan Dias'
 description:        "Analsis y Visualizacion de Datos"
 locale:             en_US
@@ -35,15 +35,15 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+twitter:            rodixxi
+facebook:           rodixxi
+instagram:          rodixxi
+github:             rodixxi
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           Córdoba, Córdoba
+phone:              +54 9 0 3574 15 407371
+email:              rodixxi@gmail.com
 
 # Gems
 gems:
